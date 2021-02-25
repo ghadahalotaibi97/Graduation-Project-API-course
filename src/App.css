@@ -1,0 +1,191 @@
+
+#root,.App {
+  font-family: 'Shadows Into Light', cursive ;
+ /* background-color: rgb(161, 158, 158) !important; */
+ background: url(images/bg2.jpg) fixed;
+ background-size: cover;
+}
+#text1{
+  background: rgb(247, 243, 243);
+  opacity: 0.6;
+}
+.sideone{
+margin: 50px auto;
+}
+.twoside h2{
+  color: #99261e;
+  text-decoration: underline;
+}
+.twoside p{
+  color: #050505;
+  text-align: center;
+  justify-content:left;
+  padding: 20px;
+}
+.twoside{
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,.6) !important;
+  border-radius: 10px;
+ /* background: url(images/bg3.jpg) fixed; */
+ background-color: #525353;
+ padding: 30px;
+ background-size: cover;
+ opacity: 0.7;
+}
+  .Navbar {
+  opacity: 0.6;
+  background-color: rgb(10, 6, 6);
+  height: 15vh;
+  }
+ 
+  .textitem , .nav-link , .buttonadd {
+    color:#e7e0df !important;
+    text-decoration: none;
+    font-size: 20px;
+  } 
+  .textitem:hover , .nav-link:hover ,.buttonadd:hover{
+    color: #db3939 !important;
+    text-decoration: none;
+  }
+
+@media  (min-width: 1281px)  {
+  .navbar {
+  background-color: rgb(26, 25, 25) !important;
+  height: 15vh;
+  opacity: 0.7;
+  } 
+  .navbar-brand{
+    height:250px;
+    width: 250px;
+  }
+  .textitem , .nav-link , .buttonadd {
+    color:#e7e0df !important;
+    text-decoration: none;
+    font-size: 20px;
+  } 
+  .textitem:hover , .nav-link:hover ,.buttonadd:hover{
+    color: #db3939 !important;
+    text-decoration: none;
+  }
+
+}
+@media  (max-width: 1281px) { 
+  .navbar-brand {display: none !important;}
+  }
+.ved {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.ved video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.ved .container1 {
+  position: relative;
+  z-index: 2;
+}
+
+.ved .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+   button, .button {
+    padding: 8px;
+    background-color: rgb(43, 42, 42) ;
+    color: rgb(226, 217, 217) ;
+    text-decoration: none;
+   
+  }
+  .button:hover{
+    padding: 8px;
+    background-color: rgb(43, 42, 42) ;
+    color: rgb(226, 217, 217) ;
+    text-decoration: none;
+  }
+.card-img{
+height: 550px;
+}
+.card{
+  box-shadow: 0 10px 20px rgba(0,0,0,.6) !important;
+  background-color: #c7c9ca !important;
+  font-family: 'Shadows Into Light', cursive;
+}
+.footer > i{
+  font-size: 35px;
+  margin: 12px;
+
+}
+.footer{
+  opacity: 0.6;
+  background-color: rgb(10, 6, 6);
+  height: 9vh;
+  color:#f9fcfd;
+  text-align: center;
+}
+.form1 {
+  color: #c7c9ca;
+  background: rgba(0,0,0,.5) !important;
+  box-shadow: 0 10px 20px rgba(0,0,0,.6) !important;
+  border-radius: 10px;
+  background-color: #525353;
+ padding: 10px;
+}
+.form1 h1{
+    margin: 0 0 15px;
+    color: rgb(167, 4, 4) ;
+    text-align: center;
+      font-family: 'Shadows Into Light', cursive ;
+}
+.form1 .submitup{
+  background-color: rgb(43, 42, 42) !important;
+  color: rgb(226, 217, 217) !important;
+  background-color: rgb(128, 127, 125);
+}
+.form1 .submitup:hover{
+  background-color: rgb(146, 55, 55);
+  color: rgb(226, 217, 217);
+  background-color: rgb(128, 127, 125);
+}
+.modal1 .submitup{
+  background-color: rgb(43, 42, 42);
+  color: rgb(226, 217, 217);
+}
+.modal1 .submitup:hover{
+  background-color: rgb(146, 55, 55);
+  color: rgb(226, 217, 217);
+}
+.modal1 {
+  background-color: #c7c9ca!important;
+  font-family: 'Shadows Into Light', cursive;
+}
+.modal2 {
+  background-color: #575858!important;
+  font-family: 'Shadows Into Light', cursive;
+  color: #b63939;
+}
+h5 {
+  color: #b63939;
+} 
